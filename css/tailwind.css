@@ -1,0 +1,14 @@
+/*Sansita*/
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,800;1,400&display=swap');
+/* Lato*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Sansita:ital,wght@0,400;0,800;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.blog-card{
+    @apply  border border-gray-100 rounded-2xl overflow-hidden transition duration-200 hover:shadow-lg hover:border-transparent;
+}
+.post-title{
+    @apply font-bold text-pri text-xl font-title py-3 transition duration-200 hover:text-sec;
+}
+
